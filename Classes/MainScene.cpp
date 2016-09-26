@@ -65,7 +65,7 @@ bool Main::init()
     this->addChild(label, 1);
 
     // add "Main" splash screen"
-    auto sprite = Sprite::create("Main.png");
+    auto sprite = Sprite::create("HelloWorld.png");
 
     // position the sprite on the center of the screen
     sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
